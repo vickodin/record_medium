@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["vick.orel@gmail.com"]
 
   spec.summary       = "RecordMedium.com API"
-  spec.description   = "RecordMedium.com API"
+  spec.description   = "RecordMedium.com API gem (import and export)"
   spec.homepage      = "https://github.com/vickodin/record_medium"
   spec.license       = "MIT"
 
@@ -30,12 +30,12 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency 'webmock'
-  spec.add_development_dependency 'vcr'
-  spec.add_development_dependency 'rubocop', '~> 0.52.1'
+  spec.add_development_dependency "bundler",  "~> 1.16"
+  spec.add_development_dependency "rake",     "~> 10.0"
+  spec.add_development_dependency "rspec",    "~> 3.0"
+  spec.add_development_dependency 'webmock',  '~> 3.3'
+  spec.add_development_dependency 'vcr',      '~> 4.0'
+  spec.add_development_dependency 'rubocop',  '~> 0.52.1'
 
   spec.add_runtime_dependency     'httparty', '~> 0.15.6'
 end

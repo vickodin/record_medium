@@ -62,8 +62,8 @@ DEPENDENCIES
   record_medium!
   rspec (~> 3.0)
   rubocop (~> 0.52.1)
-  vcr
-  webmock
+  vcr (~> 4.0)
+  webmock (~> 3.3)
 
 BUNDLED WITH
    1.16.1
